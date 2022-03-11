@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+header {
+    background-color: #48C5CE;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.container{
+    max-width: 260px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    background-color: #FFFFFFBB;
+    text-align: left;
+    color: black;
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+}
+section{
+  padding: 20px;
+  background-image: url(./images/people.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+input,select{
+    border-radius:4px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+input[type=submit]{
+    background-color: #48C5CE;
+    font-weight: bold;
+    color: white;
+}
+
+.picture{
+    width: 160px;
+}
+
+.description{
+    color: black;
+    display: inline-block;
+    max-width: 40%;
+    text-align: left;
+    margin-top: 1%;
+}
+
+.description p, .description h2{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+footer{
+    background-color: grey ;
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+}
